@@ -63,6 +63,7 @@ The Bagging Regressor was saved for future real-time predictions, providing flex
 
 This flight price prediction system showcases the benefits of integrating machine learning with oneAPI technology. The optimized Random Forest and scikit-learn models not only achieved high accuracy but also ensured efficient computation across different hardware. Future improvements could involve testing on additional datasets or deploying the system as a real-time pricing API for travel platforms.
 
+
 ​
 The project highlights how optimized machine learning solutions can streamline business processes and offer valuable insights, benefiting both service providers and end-users.
 
@@ -75,7 +76,7 @@ Intel oneAPI can significantly enhance a flight price prediction system by utili
 
 ​
 
-### Data Preparation:
+### ✅Data Preparation:
 
 Gather historical flight data, including features such as departure and arrival airports, airline, ticket class, departure time, journey duration, and the flight date.
 
@@ -83,7 +84,7 @@ Handle missing values, perform data cleaning, and preprocess categorical variabl
 
 ​
 
-### Feature Engineering:
+### ✅Feature Engineering:
 
 Extract meaningful features such as travel month, day of the week, and hour of departure. Create additional features, like holiday indicators or flight distance, to improve prediction accuracy.
 
@@ -91,7 +92,7 @@ Use scaling or normalization for numerical features to optimize model performanc
 
 ​
 
-### Model Selection:
+### ✅Model Selection:
 
 Choose machine learning models such as Random Forest Regressor, Decision Tree, Linear Regression, Support Vector Machine (SVR), or Bagging Regressor.
 
@@ -99,7 +100,7 @@ Each model offers a different balance between interpretability, complexity, and 
 
 ​
 
-### Training and Optimization:
+### ✅Training and Optimization:
 
 Leverage Intel oneAPI Toolkit and oneDAL (Data Analytics Library) to accelerate training on Intel CPUs, GPUs, or FPGAs.
 
@@ -109,7 +110,7 @@ Perform hyperparameter tuning using methods like RandomizedSearchCV to optimize 
 
 ​
 
-### Model Evaluation:
+### ✅Model Evaluation:
 
 Use cross-validation to ensure model robustness. Evaluate the model's performance using metrics such as R² score, MAE, MSE, and RMSE to measure prediction accuracy.
 
@@ -117,7 +118,7 @@ Experiment with different models and feature sets to ensure the optimal configur
 
 ​
 
-### Deployment and Monitoring:
+### ✅Deployment and Monitoring:
 
 Once the best-performing model is identified, deploy it in a production environment, ensuring scalability and real-time prediction capabilities.
 
