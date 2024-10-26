@@ -32,7 +32,7 @@ Several machine learning models were used and compared for this task, including:
 
 
 
-** - Random Forest (with oneAPI)**: A robust ensemble method ideal for handling complex datasets.
+**Random Forest (with oneAPI)**: A robust ensemble method ideal for handling complex datasets.
 
 **Linear Regression**: For baseline prediction and comparison.
 
