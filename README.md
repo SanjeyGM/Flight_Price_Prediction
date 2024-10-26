@@ -1,9 +1,6 @@
 # Flight Price Prediction System  
 
 
-
-
-
 This project harnesses the power of machine learning combined with Intel oneAPI to develop a robust system for predicting flight prices. By analyzing various factors such as airline preferences, route specifics, departure and arrival times, and seasonal trends, the model aims to provide accurate price predictions that can help travelers make informed decisions.
 
 # Dataset
@@ -33,7 +30,8 @@ Using oneAPI’s oneDAL library, I optimized the Random Forest, Ridge Regression
 
 Several machine learning models were used and compared for this task, including:
 
-Random Forest (with oneAPI): A robust ensemble method ideal for handling complex datasets.
+
+<b>Random Forest (with oneAPI)</b>: A robust ensemble method ideal for handling complex datasets.
 
 Linear Regression: For baseline prediction and comparison.
 
