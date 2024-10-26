@@ -41,12 +41,9 @@ Bagging Regressor: As an ensemble model to improve predictive stability.
 
 
 
-
-
 Random Forest, optimized with oneAPI, emerged as the most efficient and accurate model. The combination of hardware acceleration and hyperparameter tuning ensured the model performed well under various conditions.
 
 ​
-
 # Results and Discussion
 
 ​![pic3](https://github.com/user-attachments/assets/1fdae45e-894e-4c8a-b875-dcc3806fed70)
@@ -59,7 +56,6 @@ The optimized Random Forest model provided reliable predictions with a high R² 
 The Bagging Regressor was saved for future real-time predictions, providing flexibility for dynamic pricing scenarios. The accurate forecasting achieved in this project shows the potential of machine learning models for travel-related applications, such as personalized fare estimation and dynamic pricing recommendations.
 
 ​
-
 # Conclusion
 
 
@@ -73,11 +69,9 @@ The project highlights how optimized machine learning solutions can streamline b
 # Methodology:
 
 ​
-
 Intel oneAPI can significantly enhance a flight price prediction system by utilizing its performance optimization capabilities and support for heterogeneous computing. The following steps outline the key approach:
 
 ​
-
 ### ✅Data Preparation:
 
 Gather historical flight data, including features such as departure and arrival airports, airline, ticket class, departure time, journey duration, and the flight date.
@@ -129,49 +123,48 @@ Continuously monitor performance and retrain the model with new flight data to m
 By utilizing Intel oneAPI technologies, the flight price prediction system benefits from faster training and inference times, allowing for real-time predictions. This approach ensures the system is scalable and capable of efficiently handling large datasets across diverse hardware environments.
 
 
-### Technologies Used:
+# Technologies Used:
+
+​
+### Programming Languages: Python
+
+## Libraries and Frameworks:
+
+### scikit-learn: For machine learning models (Random Forest, Linear Regression, Decision Tree, SVR, etc.)
+
+### NumPy & Pandas: For data manipulation and preprocessing
+
+### Matplotlib & Seaborn: For data visualization
+
+### oneDAL (oneAPI Data Analytics Library): For accelerating machine learning models
+
+### Jupyter Notebook: For interactive development
 
 ​
 
-Programming Languages: Python
+# Machine Learning Techniques:
 
-Libraries and Frameworks:
+### Random Forest Regressor (with oneAPI optimization)
 
-scikit-learn: For machine learning models (Random Forest, Linear Regression, Decision Tree, SVR, etc.)
+### Linear Regression, Decision Tree, SVR, Bagging Regressor
 
-NumPy & Pandas: For data manipulation and preprocessing
-
-Matplotlib & Seaborn: For data visualization
-
-oneDAL (oneAPI Data Analytics Library): For accelerating machine learning models
-
-Jupyter Notebook: For interactive development
+### Cross-validation, Hyperparameter Tuning
 
 ​
 
-### Machine Learning Techniques:
+# Tools and Platforms:
 
-Random Forest Regressor (with oneAPI optimization)
+### Intel DevCloud: For development and testing with access to hardware accelerators
 
-Linear Regression, Decision Tree, SVR, Bagging Regressor
-
-Cross-validation, Hyperparameter Tuning
+### oneAPI Toolkit: To enable optimized execution across CPUs, GPUs, and FPGAs
 
 ​
 
-### Tools and Platforms:
+# Hardware:
 
-Intel DevCloud: For development and testing with access to hardware accelerators
+### Intel CPUs: Used for model training and deployment
 
-oneAPI Toolkit: To enable optimized execution across CPUs, GPUs, and FPGAs
-
-​
-
-### Hardware:
-
-Intel CPUs: Used for model training and deployment
-
-GPUs and FPGAs: Accelerated using oneAPI for optimized performance
+### GPUs and FPGAs: Accelerated using oneAPI for optimized performance
 
 ​
 
