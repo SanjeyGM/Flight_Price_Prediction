@@ -44,27 +44,6 @@ Bagging Regressor: As an ensemble model to improve predictive stability.
 Random Forest, optimized with oneAPI, emerged as the most efficient and accurate model. The combination of hardware acceleration and hyperparameter tuning ensured the model performed well under various conditions.
 
 ​
-# Results and Discussion
-
-​![pic3](https://github.com/user-attachments/assets/1fdae45e-894e-4c8a-b875-dcc3806fed70)
-
-
-The optimized Random Forest model provided reliable predictions with a high R² score, demonstrating its ability to capture the complexity of flight pricing patterns. Metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE), and Root Mean Squared Error (RMSE) were used to assess the model’s accuracy.
-
-​
-
-The Bagging Regressor was saved for future real-time predictions, providing flexibility for dynamic pricing scenarios. The accurate forecasting achieved in this project shows the potential of machine learning models for travel-related applications, such as personalized fare estimation and dynamic pricing recommendations.
-
-​
-# Conclusion
-
-
-This flight price prediction system showcases the benefits of integrating machine learning with oneAPI technology. The optimized Random Forest and scikit-learn models not only achieved high accuracy but also ensured efficient computation across different hardware. Future improvements could involve testing on additional datasets or deploying the system as a real-time pricing API for travel platforms.
-
-
-​
-The project highlights how optimized machine learning solutions can streamline business processes and offer valuable insights, benefiting both service providers and end-users.
-
 
 # Methodology:
 
@@ -167,5 +146,23 @@ By utilizing Intel oneAPI technologies, the flight price prediction system benef
 ### GPUs and FPGAs: Accelerated using oneAPI for optimized performance
 
 ​
+# Results and Discussion
 
-The combination of these technologies ensured efficient model training, faster inference times, and seamless development on Intel DevCloud.
+​![pic3](https://github.com/user-attachments/assets/1fdae45e-894e-4c8a-b875-dcc3806fed70)
+
+
+The optimized Random Forest model provided reliable predictions with a high R² score, demonstrating its ability to capture the complexity of flight pricing patterns. Metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE), and Root Mean Squared Error (RMSE) were used to assess the model’s accuracy.
+
+​
+
+The Bagging Regressor was saved for future real-time predictions, providing flexibility for dynamic pricing scenarios. The accurate forecasting achieved in this project shows the potential of machine learning models for travel-related applications, such as personalized fare estimation and dynamic pricing recommendations.
+
+​
+# Conclusion
+
+
+This flight price prediction system showcases the benefits of integrating machine learning with oneAPI technology. The optimized Random Forest and scikit-learn models not only achieved high accuracy but also ensured efficient computation across different hardware. Future improvements could involve testing on additional datasets or deploying the system as a real-time pricing API for travel platforms.
+
+
+​
+The project highlights how optimized machine learning solutions can streamline business processes and offer valuable insights, benefiting both service providers and end-users.
