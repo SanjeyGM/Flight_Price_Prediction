@@ -23,9 +23,9 @@ Using oneAPI’s oneDAL library, I optimized the Random Forest, Ridge Regression
 
 ​
 
-### Models Used
+# Models Used
 
-​
+![pic2](https://github.com/user-attachments/assets/3ea30987-bfa4-49a0-945c-4055c6c4dfc8)
 
 Several machine learning models were used and compared for this task, including:
 
