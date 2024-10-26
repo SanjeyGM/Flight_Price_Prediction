@@ -13,13 +13,11 @@ The dataset is crucial for training the models, allowing them to learn patterns 
 
 ​
 
-### oneAPI Integration
+# oneAPI Integration
 
-​
+​![oneAPI](https://github.com/user-attachments/assets/32727385-2007-4f59-8e1f-1b8fa3f8f7f2)
 
 For performance optimization, I integrated Intel's oneAPI, an open, unified programming model that enables developers to write code that runs seamlessly on multiple hardware types, including CPUs, GPUs, and FPGAs.
-
-​
 
 Using oneAPI’s oneDAL library, I optimized the Random Forest, Ridge Regression and Scikit-Learn to take advantage of hardware accelerators, leading to faster training and prediction times. This enhancement allows the model to provide real-time predictions with high efficiency, even on large datasets.
 
