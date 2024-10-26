@@ -31,15 +31,15 @@ Using oneAPI’s oneDAL library, I optimized the Random Forest, Ridge Regression
 Several machine learning models were used and compared for this task, including:
 
 
-<b>Random Forest (with oneAPI)</b>: A robust ensemble method ideal for handling complex datasets.
+**Random Forest (with oneAPI)**: A robust ensemble method ideal for handling complex datasets.
 
-Linear Regression: For baseline prediction and comparison.
+**Linear Regression**: For baseline prediction and comparison.
 
-Decision Tree Regressor: To analyze feature importance and interpretability.
+**Decision Tree Regressor**: To analyze feature importance and interpretability.
 
-Support Vector Machine (SVR): For capturing nonlinear relationships.
+**Support Vector Machine (SVR)**: For capturing nonlinear relationships.
 
-Bagging Regressor: As an ensemble model to improve predictive stability.
+**Bagging Regressor**: As an ensemble model to improve predictive stability.
 
 
 
@@ -101,51 +101,52 @@ Once the best-performing model is identified, deploy it in a production environm
 
 Continuously monitor performance and retrain the model with new flight data to maintain prediction accuracy over time.
 
+
 By utilizing Intel oneAPI technologies, the flight price prediction system benefits from faster training and inference times, allowing for real-time predictions. This approach ensures the system is scalable and capable of efficiently handling large datasets across diverse hardware environments.
 
 
 # Technologies Used:
 
 
-### Programming Languages: Python
+**Programming Languages**: Python
 
 ## Libraries and Frameworks:
 
-### scikit-learn: For machine learning models (Random Forest, Linear Regression, Decision Tree, SVR, etc.)
+**scikit-learn**: For machine learning models (Random Forest, Linear Regression, Decision Tree, SVR, etc.)
 
-### NumPy & Pandas: For data manipulation and preprocessing
+**NumPy & Pandas**: For data manipulation and preprocessing
 
-### Matplotlib & Seaborn: For data visualization
+**Matplotlib & Seaborn**: For data visualization
 
-### oneDAL (oneAPI Data Analytics Library): For accelerating machine learning models
+**oneDAL (oneAPI Data Analytics Library)**: For accelerating machine learning models
 
-### Jupyter Notebook: For interactive development
+**Jupyter Notebook**: For interactive development
 
 ​
 
 # Machine Learning Techniques:
 
-### Random Forest Regressor (with oneAPI optimization)
+**Random Forest Regressor (with oneAPI optimization)**
 
-### Linear Regression, Decision Tree, SVR, Bagging Regressor
+**Linear Regression, Decision Tree, SVR, Bagging Regressor**
 
-### Cross-validation, Hyperparameter Tuning
+**Cross-validation, Hyperparameter Tuning**
 
 ​
 
 # Tools and Platforms:
 
-### Intel DevCloud: For development and testing with access to hardware accelerators
+**Intel DevCloud**: For development and testing with access to hardware accelerators
 
-### oneAPI Toolkit: To enable optimized execution across CPUs, GPUs, and FPGAs
+**oneAPI Toolkit**: To enable optimized execution across CPUs, GPUs, and FPGAs
 
 ​
 
 # Hardware:
 
-### Intel CPUs: Used for model training and deployment
+**Intel CPUs**: Used for model training and deployment
 
-### GPUs and FPGAs: Accelerated using oneAPI for optimized performance
+**GPUs and FPGAs**: Accelerated using oneAPI for optimized performance
 
 ​
 # Results and Discussion
