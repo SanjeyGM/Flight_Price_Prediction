@@ -24,6 +24,7 @@ Using oneAPI’s oneDAL library, I optimized the Random Forest, Ridge Regression
 
 
 **Intel oneAPI Data Analytics Library (oneDAL)**: For data analysis and machine learning.
+
 **Intel oneAPI Deep Neural Network Library (oneDNN)**: For deep learning and neural networks.
 
 ​
