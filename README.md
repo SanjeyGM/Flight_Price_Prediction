@@ -2,16 +2,9 @@
 
 This project leverages machine learning and Intel oneAPI to predict flight prices based on factors like airline, route, time, and seasonality. By optimizing the model for performance using oneAPI, it enables faster training and inference, helping users find the best prices efficiently.
 
-### Overview / Usage
-
-
-In this project, I developed a flight price prediction system using machine learning, hosted on the Intel DevCloud platform. The primary objective was to predict ticket prices based on several factors such as airline, source, destination, flight duration, and travel times.
-
-​
-
 ### Dataset
 
-​
+​![Uploading image.png…]()
 
 The dataset consists of multiple flight records with key features, including airline names, journey durations, number of stopovers, departure and arrival times, and routes. These features serve as independent variables, influencing the final price of the tickets.
 
