@@ -58,18 +58,16 @@ The Bagging Regressor was saved for future real-time predictions, providing flex
 
 ​
 
-### Conclusion
+# Conclusion
 
-​
 
 This flight price prediction system showcases the benefits of integrating machine learning with oneAPI technology. The optimized Random Forest and scikit-learn models not only achieved high accuracy but also ensured efficient computation across different hardware. Future improvements could involve testing on additional datasets or deploying the system as a real-time pricing API for travel platforms.
 
 ​
-
 The project highlights how optimized machine learning solutions can streamline business processes and offer valuable insights, benefiting both service providers and end-users.
 
 
-### Methodology:
+# Methodology:
 
 ​
 
