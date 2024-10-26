@@ -4,7 +4,8 @@ This project leverages machine learning and Intel oneAPI to predict flight price
 
 ### Dataset
 
-​![Uploading image.png…]()
+![flight_dataset](https://github.com/user-attachments/assets/3a170a07-f0df-4010-8846-dedfc698f8f0)
+
 
 The dataset consists of multiple flight records with key features, including airline names, journey durations, number of stopovers, departure and arrival times, and routes. These features serve as independent variables, influencing the final price of the tickets.
 
