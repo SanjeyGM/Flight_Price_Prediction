@@ -102,6 +102,7 @@ Once the best-performing model is identified, deploy it in a production environm
 
 Continuously monitor performance and retrain the model with new flight data to maintain prediction accuracy over time.
 
+![Machine-Learning-Flowchart-8](https://github.com/user-attachments/assets/1899247b-7e47-495e-98e7-f4fa4f8e0e2f)
 
 By utilizing Intel oneAPI technologies, the flight price prediction system benefits from faster training and inference times, allowing for real-time predictions. This approach ensures the system is scalable and capable of efficiently handling large datasets across diverse hardware environments.
 
