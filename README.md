@@ -40,13 +40,15 @@ Support Vector Machine (SVR): For capturing nonlinear relationships.
 Bagging Regressor: As an ensemble model to improve predictive stability.
 
 
+
 Random Forest, optimized with oneAPI, emerged as the most efficient and accurate model. The combination of hardware acceleration and hyperparameter tuning ensured the model performed well under various conditions.
 
 ​
 
 # Results and Discussion
 
-​
+​![pic3](https://github.com/user-attachments/assets/1fdae45e-894e-4c8a-b875-dcc3806fed70)
+
 
 The optimized Random Forest model provided reliable predictions with a high R² score, demonstrating its ability to capture the complexity of flight pricing patterns. Metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE), and Root Mean Squared Error (RMSE) were used to assess the model’s accuracy.
 
