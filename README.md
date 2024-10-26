@@ -22,6 +22,10 @@ For performance optimization, I integrated Intel's oneAPI, an open, unified prog
 
 Using oneAPI’s oneDAL library, I optimized the Random Forest, Ridge Regression and Scikit-Learn to take advantage of hardware accelerators, leading to faster training and prediction times. This enhancement allows the model to provide real-time predictions with high efficiency, even on large datasets.
 
+
+**Intel oneAPI Data Analytics Library (oneDAL)**: For data analysis and machine learning.
+**Intel oneAPI Deep Neural Network Library (oneDNN)**: For deep learning and neural networks.
+
 ​
 
 # Models Used
