@@ -3,6 +3,8 @@
 
 This project harnesses the power of machine learning combined with Intel oneAPI to develop a robust system for predicting flight prices. By analyzing various factors such as airline preferences, route specifics, departure and arrival times, and seasonal trends, the model aims to provide accurate price predictions that can help travelers make informed decisions.
 
+### Intel Devmesh Link: https://devmesh.intel.com/projects/flight-price-prediction-0441bb
+
 # Dataset
 
 ![flight_dataset](https://github.com/user-attachments/assets/3a170a07-f0df-4010-8846-dedfc698f8f0)
